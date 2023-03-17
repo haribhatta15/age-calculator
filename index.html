@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Age Calculator</h1>
+      <label for="birthdate">Enter your birthdate:</label>
+      <input type="date" id="birthdate" required />
+      <hr />
+      <button onclick="calculateAge()">Calculate Age</button>
+      <p>
+        <strong>Your age is:</strong> <br />
+        <span id="years"></span> years <br />
+        <span id="months"></span> months <br />
+        and <span id="days"></span> days.
+      </p>
+    </div>
+    <footer>&copy; Hari 2023. All Right Reserved.</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
